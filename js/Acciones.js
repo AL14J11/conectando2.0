@@ -2,7 +2,7 @@
 var  ID_Usuario = "";
 function LoginConectar(U,P)
 {
-	datos = "usuario="+U+"& password="+p;
+	datos = "Usuario="+U+"& Password="+p;
 	$.ajax({
 		type:POST,
 		url:"http://192.168.1.184/Sitio6/Log_in_m.php",
